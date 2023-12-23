@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es6",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "outDir": "./dist",
+      "baseUrl": "./",
+      "paths": {
+        "test-automation-framework": ["node_modules/test-automation-framework"]
+      },
+    },
+    "include": ["src/**/*", "tests/**/*"],
+  }
+  
