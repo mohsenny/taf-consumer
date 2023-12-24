@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { GraphQLClientHelper } from 'test-automation-framework';
-import { sampleQueries, sampleVariables } from './testData/GraphQLTestExample.testdata';
+import { sampleQueries, sampleVariables } from './testData/countries.testdata';
 import { graphqlTestsConfig } from '../config'; // Point this to your own local config
 import { CountriesData, CountryData } from '../types/graphqlTypes';
 import {
