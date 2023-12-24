@@ -8,7 +8,7 @@
     "test": "npx playwright test",
     "test:e2e": "npm run build && npx playwright test",
     "test:e2e-ui": "npx playwright test --ui",
-    "test:api-graphql": "mocha --require ts-node/register 'tests/api-graphql/**/*.ts'"
+    "test:api-graphql": "mocha --require ts-node/register 'tests/api-graphql/**/*.spec.ts'"
   },
   "devDependencies": {
     "@types/chai": "^4.3.11",
