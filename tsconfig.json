@@ -10,6 +10,6 @@
         "test-automation-framework": ["node_modules/test-automation-framework"]
       },
     },
-    "include": ["src/**/*", "tests/**/*"],
+    "include": ["src/**/*", "tests/**/*", "test-automation-framework.d.ts"],
   }
   

@@ -8,10 +8,14 @@
     "test": "npx playwright test",
     "test:e2e": "npm run build && npx playwright test",
     "test:e2e-ui": "npx playwright test --ui",
-    "test:api-graphql": "mocha --require ts-node/register 'tests/api-graphql/**/*.spec.ts'"
+    "test:api-graphql": "mocha --require ts-node/register 'tests/api-graphql/**/*.spec.ts'",
+    "test:performance:cloud": "k6 cloud --out json=test_results.json",
+    "test:performance:local": "k6 run --out json=test_results.json",
+    "test:performance:ci": "k6 run scenarios/*.js --out json=report.json"
   },
   "devDependencies": {
     "@types/chai": "^4.3.11",
+    "@types/k6": "^0.46.0",
     "@types/mocha": "^10.0.6",
     "@types/node": "^20.10.5",
     "mocha": "^10.2.0",
@@ -22,6 +26,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "test-automation-framework": "2.2.9"
+    "test-automation-framework": "2.2.12"
   }
 }
