@@ -4,7 +4,8 @@ In this respostiry there are examples of end-to-end and API tests, importing and
 
 ## Installation
 ```bash
-npm run build && npm i
+npm i -and run build    # PowerShell
+npm i && run build      # UNIX and CMD
 ```
 
 ## Run e2e tests

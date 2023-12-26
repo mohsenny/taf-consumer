@@ -26,6 +26,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "build": "^0.1.4",
+    "run": "^1.4.0",
     "test-automation-framework": "2.2.12"
   }
 }
