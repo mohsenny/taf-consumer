@@ -11,7 +11,7 @@
     "test:api-graphql": "mocha --require ts-node/register 'tests/api-graphql/**/*.spec.ts'",
     "test:performance:cloud": "k6 cloud --out json=test_results.json",
     "test:performance:local": "k6 run --out json=test_results.json",
-    "test:performance:ci": "k6 run scenarios/*.js --out json=report.json"
+    "test:performance:ci": "k6 run scenarios/*.js --out json=tests/performance/reports/report.json"
   },
   "devDependencies": {
     "@types/chai": "^4.3.11",
