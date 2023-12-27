@@ -33,7 +33,7 @@ There are a few stepts before running the tests:
 2. Source the PowerShell script to set up the environment and dependencies:
 
    ```powershell
-   . .\scripts\setup\local.ps1
+   . .\tests\performance\setup\local.ps1
    ```
 
 ### Unix-based OS Setup
@@ -42,7 +42,7 @@ There are a few stepts before running the tests:
 2. Make the script executable and source it:
 
    ```bash
-   chmod +x ./scripts/setup/local.sh && source ./scripts/setup/local.sh
+   chmod +x chmod +x ./tests/performance/setup/local.sh && source ./tests/performance/setup/local.sh
    ```
 
 ### Run Tests
