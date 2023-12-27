@@ -42,7 +42,7 @@ There are a few stepts before running the tests:
 2. Make the script executable and source it:
 
    ```bash
-   chmod +x chmod +x ./tests/performance/setup/local.sh && source ./tests/performance/setup/local.sh
+   chmod +x ./tests/performance/setup/local.sh && source ./tests/performance/setup/local.sh
    ```
 
 ### Run Tests
