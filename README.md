@@ -48,7 +48,7 @@ There are a few stepts before running the tests:
 ### Run Tests
 
 ```bash
-npm run test:performance:local
+npm run test:performance:local path/to/test/file.js
 ```
 
 ### Results
